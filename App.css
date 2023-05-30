@@ -1,0 +1,68 @@
+.index-page {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.search {
+  flex-grow: 1;
+}
+
+.user {
+  font-size: 1.2rem;
+}
+
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+.listing-card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.listing-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listing-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.listing-location {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.listing-rate {
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.listing-amenities {
+  color: #888;
+}
